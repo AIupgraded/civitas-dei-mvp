@@ -1,6 +1,6 @@
 {
   "buildCommand": "pnpm install && pnpm vite build",
-  "outputDirectory": "dist/public",
+  "outputDirectory": "dist",
   "installCommand": "pnpm install",
   "framework": null,
   "rewrites": [
