@@ -1,0 +1,16 @@
+# Ignore server directory for static deployment
+server/
+shared/
+content/
+patches/
+
+# Development files
+*.md
+!README.md
+.env*
+!.env.example
+tsconfig*.json
+vite.config.ts
+components.json
+.prettierrc
+.prettierignore
