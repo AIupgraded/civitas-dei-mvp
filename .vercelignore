@@ -1,8 +1,6 @@
 # Ignore server directory for static deployment
 server/
-shared/
 content/
-patches/
 
 # Development files
 *.md
