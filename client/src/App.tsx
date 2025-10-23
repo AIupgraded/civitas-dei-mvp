@@ -10,6 +10,7 @@ import SignUp from "./pages/SignUp";
 import SignIn from "./pages/SignIn";
 import Dashboard from "./pages/Dashboard";
 import Marketplace from "./pages/Marketplace";
+import Services from "./pages/Services";
 import ServiceDetail from "./pages/ServiceDetail";
 
 function Router() {
@@ -20,6 +21,7 @@ function Router() {
       <Route path={"/signin"} component={SignIn} />
       <Route path={"/dashboard"} component={Dashboard} />
       <Route path={"/marketplace"} component={Marketplace} />
+      <Route path={"/services"} component={Services} />
       <Route path={"/service/:id"} component={ServiceDetail} />
       <Route path={"/404"} component={NotFound} />
       <Route component={NotFound} />
